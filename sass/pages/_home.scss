@@ -1,0 +1,17 @@
+.heading{
+    padding: 3rem;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.section{
+    padding: 7rem;
+    margin-bottom: 7rem;
+
+    &:nth-child(even) {
+        background-color: #f9fafa;
+    }
+
+}
